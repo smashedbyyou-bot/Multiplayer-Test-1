@@ -15,3 +15,10 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
